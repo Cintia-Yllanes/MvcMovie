@@ -10,6 +10,7 @@ namespace MvcMovie.Controllers
         {
             if (id == null)
             {
+
                 return NotFound();
             }
 
@@ -56,6 +57,8 @@ namespace MvcMovie.Controllers
             return View(listMovies);
 
         }
+
+
 
     }
 }
